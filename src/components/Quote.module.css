@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 227px; */
+}
+
+.quoteContainer{
+    border: none;
+    border-left: solid #F7DF94 8px;
+    margin: 0px auto;
+    height: auto;
+}
+
+.quoteText{
+    color: #000000;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30.2px;
+    padding-left: 30px;
+    max-width: 614px;
+}
+
+
+@media screen and (min-width: 712px) {
+    
+    .quoteText{        
+        font-size: 36px;
+        line-height: 43.2px;
+        padding-left: 99px;
+    }
+
+}
