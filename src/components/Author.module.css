@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    margin-top: 109px;
+    margin-right: 0px;
+    place-content: flex-end;
+}
+
+.authorContainer{
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    padding: 50px 29px;
+    place-items: center;
+    transition: background-color 300ms linear;
+    width: calc(100% - 65px);
+}
+
+.authorContainer:hover{
+    background-color: #333333;
+}
+
+.authorContainer:hover .authorText{
+    color: #F2F2F2;
+}
+
+.authorContainer:hover .icon{
+    display: block;
+}
+
+.authorText{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.genreText{
+    color: #828282;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 8px;
+}
+
+.icon{
+    display: none;
+    font-size: 38px;
+    color: #F2F2F2;
+}
+
+@media screen and (min-width: 712px) {
+
+    .container{
+        margin-right: -29px;
+    }
+    
+    .authorContainer{
+        width: calc(100% - 130px);
+    }
+
+}
