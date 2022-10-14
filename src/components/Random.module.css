@@ -1,0 +1,13 @@
+.randomContainer{
+    display: flex;
+    place-content: flex-end;
+}
+
+.randomText{
+    display: flex;
+    cursor: pointer;
+    gap: 11px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.6px;
+}
