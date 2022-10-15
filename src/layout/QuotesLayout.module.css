@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
+    max-width: 721px;
+    margin: 0px auto;
+}
+
+.authorContainer{
+    margin-top: 48px;
+    display: flex;
+    place-items: center;
+    gap: 20px;
+}
+
+.icon{
+    cursor: pointer;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.authorText{
+    color: #333333;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    margin-left: 0px;
+}
+
+@media screen and (min-width: 712px) {
+    
+    .authorText{        
+        margin-left: 60px;
+    }
+
+}
