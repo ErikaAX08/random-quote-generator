@@ -1,7 +1,6 @@
 .container{
     display: flex;
     flex-direction: column;
-    /* margin-top: 227px; */
 }
 
 .quoteContainer{
@@ -19,7 +18,6 @@
     padding-left: 30px;
     max-width: 614px;
 }
-
 
 @media screen and (min-width: 712px) {
     
