@@ -8,11 +8,23 @@
 }
 
 #root{
-    min-height: 100vh;
     max-width: 1440px;
     margin: 30px;
     position: relative;
     padding-bottom: 208px;
+}
+
+.loading{
+    animation: loading 2s linear infinite;
+}
+
+@keyframes loading {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
 
 @media screen and (min-width: 712px) {
