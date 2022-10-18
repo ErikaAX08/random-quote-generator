@@ -1,0 +1,59 @@
+.quoteContainer{
+    display: flex;
+    border: none;
+    border-left: solid #F7DF94 8px;
+    height: auto;
+    flex-direction: column;
+    gap: 8px;
+    margin: 0px auto;
+    width: calc(100%);
+}
+
+.quoteText{
+    animation: skeleton 2s ease infinite;
+    background-color: #bbbbbb;
+    height: 36px;
+    margin-left: 30px;
+    width: calc(100% - 30px);
+}
+
+.authorContainer{
+    margin-top: 109px;
+    margin-left: 38px;
+    height: fit-content;
+}
+
+.authorText{
+    animation: skeleton 2s ease infinite;
+    width: 200px;
+    height: 20px;
+    background-color: #bbbbbb;
+}
+
+.genreText{
+    animation: skeleton 2s ease infinite;
+    background-color: #bbbbbb;
+    height: 20px;
+    margin-top: 8px;
+    width: 80px;
+}
+
+@keyframes skeleton {
+    to{
+        opacity: 0.5;
+    }
+}
+
+
+@media screen and (min-width: 712px) {
+    
+    .quoteText{        
+        margin-left: 99px;
+        width: calc(100% - 99px);
+    }
+
+    .authorContainer{
+        margin-left: 107px;
+    }
+
+}
