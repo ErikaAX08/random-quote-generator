@@ -43,8 +43,8 @@
 
 .icon{
     display: none;
-    font-size: 38px;
     color: #F2F2F2;
+    width: 38px;
 }
 
 @media screen and (min-width: 712px) {
