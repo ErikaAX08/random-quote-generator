@@ -1,4 +1,4 @@
-#Random Quote Generator
+# Random Quote Generator
 
 This web app is a challenge from [devchallenges.io](https://devchallenges.io/)
 
@@ -6,13 +6,13 @@ This web app is a challenge from [devchallenges.io](https://devchallenges.io/)
 
 ![Random Quote](public/quotes-page.jpeg)
 
-##Used technology
+## Used technology
 
 - React JS
 - CSS
 - Node JS
 
-###Social Networks
+### Social Networks
 
 - [Erika AX](https://erikaax.com)
 - [GitHub](https://github.com/ErikaAX08)
