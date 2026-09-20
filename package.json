@@ -1,17 +1,22 @@
 {
+  "name": "random-quote-generator",
+  "private": true,
+  "type": "module",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.4",
-    "react-router-dom": "^6.4.2"
+    "react-router-dom": "^7.18.4"
   },
   "devDependencies": {
-    "react-scripts": "^2.1.3"
+    "@vitejs/plugin-react": "^6.1.1",
+    "vite": "^8.3.0"
   },
   "scripts": {
-    "dev": "react-scripts start",
-    "build": "react-scripts build"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "browserslist": [
     ">0.2%",
